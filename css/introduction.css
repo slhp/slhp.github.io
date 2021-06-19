@@ -1,0 +1,43 @@
+.introduction-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction-container h3 {
+    color: #0a5bfc;
+    font-size: 2rem;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+.hr {
+	background-color: black;
+	width: 200px;
+	height: 3px;
+	border-radius: 10px;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: solid rgba(0, 0, 0, 0);
+    opacity: 1;
+}
+
+.introduction {
+    padding-left: 6em;
+    padding-right: 6em;
+    font-size: 19px;
+    line-height: 1.3;
+}
+
+.emp {
+    margin-top: 1.5rem;
+}
+
+.strong {
+    font-weight: bold;
+}

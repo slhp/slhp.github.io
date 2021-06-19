@@ -1,0 +1,21 @@
+body, html {
+    height: 100%;
+}
+
+.product-title-wrapper {
+    background-image: url("../assets/wallpaper.jpg");
+    height: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-title {
+    text-align: center;   
+}

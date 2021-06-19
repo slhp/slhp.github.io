@@ -1,0 +1,37 @@
+nav {
+	padding-right: 0px !important;
+}
+
+.transparent {
+	background: rgba(2, 2, 2, 0.4);
+}
+
+.nav-item {
+	margin-left: 7px;
+	margin-right: 7px;
+	font-size: 25px;
+}
+
+.nav-link.active {
+	text-decoration: underline;
+}
+
+.nav-link:focus {
+	outline: none;
+}
+
+.navbar-toggler {
+	border: none;
+	background: transparent !important;
+}
+.navbar-toggler:hover {
+	background: transparent !important;
+}
+.navbar-toggler:focus {
+	outline: 0;
+}
+
+
+
+
+

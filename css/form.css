@@ -1,0 +1,18 @@
+.form-title {
+    color: #0a5bfc;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+}
+
+.send-btn {
+    color: white;
+    font-size: 1.1rem;
+    padding: 1rem 3rem;
+}
