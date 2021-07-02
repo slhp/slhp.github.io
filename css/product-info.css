@@ -173,3 +173,10 @@
     font-size: 14px;
 }
 
+@media screen and (max-width: 550px) {
+    .specifications-wrapper, .operation-wrapper, .features-wrapper {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+

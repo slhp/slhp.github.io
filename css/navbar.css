@@ -31,6 +31,24 @@ nav {
 	outline: 0;
 }
 
+.logo-1 {
+	width: 225px;
+	height: 70px;
+}
+
+@media screen and (max-width: 550px) {
+	.logo-1, .logo-2 {
+		width: 135px;
+		height: 42px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.logo-1, .logo-2 {
+		width: 112;
+		height: 35;
+	}
+}
 
 
 
