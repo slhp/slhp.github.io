@@ -36,6 +36,12 @@
     text-align: center;
 }
 
+.specifications-wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
 .specifications td {
     border-bottom: 1px solid white;
     border-right: 1px solid white;
@@ -61,6 +67,12 @@
     height: auto;
 }
 
+.operation-wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
 .operation p {
     font-size: 1.1rem;
 }
@@ -76,18 +88,15 @@
     height: auto;
 }
 
-.feature button {
-    font-size: 1.2rem;
-    color: #000478;
+.features-wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
 }
 
-.feature p {
+.feature li {
     font-size: 1.1rem;
-}
-
-.accordion-body {
-    background-color: #198754;
-    color: white;
+    line-height: 1.8;
 }
 
 .magnify{
@@ -101,3 +110,66 @@
     display: none;
     cursor: none;
 }
+
+.gallery-wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+.simple-gallery {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  
+.mini img {
+    width: 146px;
+    height: 98px;
+    float: left;
+    margin: 4px 4px 0px 0px;
+    cursor: pointer;
+}
+  
+.mini img:nth-of-type(4) {
+    margin-right: 0px;
+}
+  
+.maxi {
+    width: 600px;
+    height: 450px;
+    display: block;
+}
+
+.feature-title {
+    text-align: center;
+    margin-top: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #0a5bfc;
+}
+
+.call {
+    background-color: #8fc740;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.zalo {
+    background-color: #08f;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sub {
+    font-size: 14px;
+}
+

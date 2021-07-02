@@ -16,7 +16,10 @@
 
 <body>
     <nav id="myNavbar" class="navbar transparent navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">
+        <a href="index.html" class="navbar-brand">
+            <img src="./assets/ntnlogo.png" alt="" width="225" height="70">
+        </a>
+        <a class="navbar-brand" href="index.html">
             <img src="./assets/logo.png" alt="">
         </a>
 
@@ -27,18 +30,29 @@
 
         <div class="collapse navbar-collapse" id="navbar">
             <div class="navbar-nav ms-auto text-right" id="navbar-items">
-                <a class="nav-item nav-link ms-auto active" href="#">
-                    <strong>Trang chủ</strong>
+                <a class="nav-item nav-link ms-auto" href="index.html">
+                    Trang chủ
                 </a>
-                <a class="nav-item nav-link ms-auto" href="index.html#products">
-                    <strong>Sản phẩm</strong>
+                <a class="nav-item nav-link ms-auto active" href="index.html#products">
+                    Sản phẩm
                 </a>
                 <a class="nav-item nav-link ms-auto" href="#footer">
-                    <strong>Liên hệ</strong>
+                    Liên hệ
                 </a>
             </div>
         </div>
     </nav>
+    <div class="position-fixed bottom-0 start-0 toolbar">
+        <a href="https://zalo.me/0919161221" class="zalo-btn btn">
+            <img src="assets/zalo_logo.png" alt="">
+        </a>
+        <a href="https://www.facebook.com/messages/t/2249665445300143" class="fb-btn btn">
+            <img src="assets/facebook_logo.png" alt="">
+        </a>
+        <a href="tel:0919161221" class="call-btn btn">
+            <img src="assets/call_logo.png" alt="">
+        </a>
+    </div>
     <!-- main page content below -->
     <div class="product-title-wrapper">
         <div class="product-title">
@@ -51,17 +65,35 @@
             <div class="row">
                 <div class="mb-3 col-md-6">
                     <figure>
-                        <img src="assets/150l.jpg" alt="" class="product-img magnifiedImg">
+                        <img id="zoom" src="assets/150l.jpg" alt="" class="product-img magnifiedImg">
                     </figure>
                 </div>
                 <div class="mb-3 col-md-6">
                     <h2 class="name">Solahart Sunheat 150L</h2>
                     <h4 class="price">Giá: 21.890.000 VNĐ</h4>
-
+                    <p>Solahart Sunheat là một máy nước nóng năng lượng mặt trời do Úc thiết kế và được phát
+                        triển đặc biệt để cung cấp nước nóng nhờ nguồn năng lượng mặt trời ở các khu vực thu được bức xạ
+                        mặt trời từ trung bình đến cao. <br><br>
+                        Bảo hành 5 năm đối với bình chứa và tấm thu nhiệt. Bảo hành 1 năm đối với phụ tùng phụ kiện.
+                    </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a class="btn call" href="tel:0919161221"> <span class="main"> Hãy gọi </span><br> <span
+                                        class="sub"> Liên hệ
+                                        0919161221 </span></a>
+                            </div>
+                            <div class="col-md-6">
+                                <a class="btn zalo" href="https://zalo.me/0919161221"> <span class="main"> Zalo
+                                    </span><br> <span class="sub"> Liên hệ
+                                        0919161221 </span></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="product-description">
+        <!-- <div class="product-description">
             <div class="row">
                 <div class="col-sm">
                     <ul class="nav nav-tabs">
@@ -80,338 +112,259 @@
                     </ul>
                     <div class="tab-pane">
                         <div class="tab-panel active" id="tab1">
-                            <!--  -->
-                            <div class="feature">
-                                <div class="accordion accordion-flush" id="accordionFlushExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingOne">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                                                aria-expanded="false" aria-controls="flush-collapseOne">
-                                                Hiệu suất tối ưu
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <p>Thích hợp nhất với các khu vực có lượng bức xạ mặt trời từ trung bình
-                                                    đến
-                                                    cao và không bị ảnh hưởng bởi tuyết</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingTwo">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                                                aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                Bình chứa tráng men sứ
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <p>Mang đến hiệu quả chống ăn mòn tối ưu cho bình
-                                                    chứa
-                                                    nhờ lớp tráng men chất lượng cao và thanh anode bảo vệ bên trong
-                                                    bình.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingThree">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
-                                                aria-expanded="false" aria-controls="flush-collapseThree">
-                                                Tính năng gia nhiệt tăng cường
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="flush-headingThree"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <p>Các sản phẩm được trang bị bộ gia nhiệt điện hỗ
-                                                    trợ
-                                                    lắp bên trong bình chứa . Ngoài ra, hệ thống có thể được lắp đặt như
-                                                    một
-                                                    máy
-                                                    nước nóng gia nhiệt sơ cấp kết hợp nối tiếp với một máy nước nóng
-                                                    trực
-                                                    tiếp
-                                                    sử dụng gas của Solahart.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingFour">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
-                                                aria-expanded="false" aria-controls="flush-collapseFour">
-                                                Lợi ích về mặt môi trường
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <p>Chuyển sang sử dụng máy nước nóng năng lượng mặt
-                                                    trời Solahart, bạn sẽ giải phóng khỏi hành tinh khoảng 3 tấn carbon
-                                                    mỗi
-                                                    năm.
-                                                    Chính vì thế, Solahart mang&nbsp;đến bạn một cuộc sống bền vững hơn.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--  -->
+            
                         </div>
                         <div class="tab-panel" id="tab2">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <table class="specifications">
-                                        <tr>
-                                            <th class="category">Kiểu máy</th>
-                                            <th class="number">151PBT</th>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Kiểu bình chứa</td>
-                                            <td class="number">150RD18 & 150RD00</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Dung tích bình chứa</td>
-                                            <td class="number">150 Lít</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Kích thước bình chứa</td>
-                                            <td class="number">1620mm x 510mm x 510mm</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Kích thước toàn hệ thống</td>
-                                            <td class="number">Mái bằng: 1670mm x 2490mm x 1120mm</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category"></td>
-                                            <td class="number">Mái nghiêng: 1670mm x 2490mm x 570mm</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Bộ phận gia nhiệt</td>
-                                            <td class="number">Thanh đốt điện trở bằng đồng</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Nguồn cấp điện</td>
-                                            <td class="number">220-240V 50-60Hz</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Kết nối ống nước</td>
-                                            <td class="number">Ống lạnh: Rp 3/4", Ống nóng: Rp 3/4"</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Công suất thanh đốt điện trở</td>
-                                            <td class="number">1.8kW</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Áp lực nước cấp tối đa</td>
-                                            <td class="number">800 kPa</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Thiết lập van xả an toàn</td>
-                                            <td class="number">1,000 kPa</td>
-                                        </tr>
 
-
-                                        <tr>
-                                            <th class="" colspan="2" style="text-align: center;">Tấm thu nhiệt BPT20007
-                                            </th>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Diện tích thu nhiệt</td>
-                                            <td class="number">1.87 m<sup>2</sup></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Kích thước</td>
-                                            <td class="number"></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Dài</td>
-                                            <td class="number">1943 mm</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Rộng</td>
-                                            <td class="number">1027 mm</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Cao</td>
-                                            <td class="number">83 mm</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Dung tích</td>
-                                            <td class="number">1.2 Lít</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Trọng lượng*</td>
-                                            <td class="number"></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Rỗng</td>
-                                            <td class="number">29 kg</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Đầy</td>
-                                            <td class="number">32 kg</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Áp suất làm việc</td>
-                                            <td class="number">1000 kPa</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Bề mặt hấp thụ</td>
-                                            <td class="number">Lớp phủ bột Polyester màu đen</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Vật liệu hấp thụ</td>
-                                            <td class="number">Nhôm</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Vật liệu ống dẫn</td>
-                                            <td class="number">Ống đồng</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Vật liệu khay</td>
-                                            <td class="number">Thép sơn tĩnh điện dày 0.45mm</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Lớp cách nhiệt</td>
-                                            <td class="number">Lớp bảo ôn Polyester dày 38 mm</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="category">Kính</td>
-                                            <td class="number">Cường lực low iron dày 3.2 mm</td>
-                                        </tr>
-                                    </table>
-                                    <p>*Trọng lượng bao gồm phụ kiên lắp đặt</p>
-                                </div>
-                            </div>
                         </div>
                         <div class="tab-panel" id="tab3">
-                            <div class="operation">
-                                <h3 class="operation-title">Quy trình vận hành hệ thống năng lượng mặt trời</h3>
-                                <div class="row">
-                                    <div class="col-md-7">
-                                        <p>Hệ thống nước nóng năng lượng mặt trời Sunheat 151BPT (hình minh họa 302L) có
-                                            bình chứa tráng men sứ được lắp đặt trực tiếp trên mái nhà kết hợp với tấm
-                                            thu
-                                            nhiệt. Nó hoạt động trên nguyên lý nước nóng được đưa lên trên. Khi mặt trời
-                                            làm
-                                            nóng nước trong các tấm thu nhiệt, nhiệt độ tăng làm cho nước nóng dâng lên
-                                            qua
-                                            một ống đồng cách nhiệt và được đưa vào bình chứa. Nước nóng vào bình chứa
-                                            đẩy
-                                            nước mát hơn xuống bên dưới và chảy vào bên dưới các tấm thu nhiệt, quy
-                                            trình
-                                            này cứ lặp lại nhờ năng lượng mặt trời.</p>
-                                    </div>
-                                    <div class="col-md-5">
-                                        <img src="assets/302l_operation.png" alt="" class="operation-img">
-                                    </div>
-                                </div>
-                                <hr>
-                                <h3 class="operation-title">Hướng lắp đặt của các tấm thu nhiệt</h3>
-                                <div class="row">
-                                    <div class="col-md-5">
-                                        <img src="assets/panelillustration.png" alt="" class="operation-img">
-                                    </div>
-                                    <div class="col-md-7">
-                                        <p>
-                                            Để giúp tối đa hóa hiệu suất hệ thống máy nước nóng, các tấm thu nhiệt nên
-                                            được lắp đặt với hướng tối ưu, xoay về hướng chính bắc (ở bán cầu nam) hoặc
-                                            hướng chính nam (ở bán cầu bắc). Luôn kiểm tra hướng chính bắc hoặc hướng
-                                            chính nam bằng la bàn hoặc thiết bị phù hợp khác.
-                                            <br><br>
-                                            Để giúp tối đa hóa hiệu suất hệ thống, các tấm thu nhiệt nên được lắp đặt
-                                            với độ nghiêng tối ưu. Giá trị này tương đương 90% đến 100% góc vĩ độ tại
-                                            địa phương khi các tấm thu được đặt hướng trong phạm vi 60&deg; của hướng
-                                            chính
-                                            bắc hoặc hướng chính nam và trong khoảng từ 10&deg; đến 20&deg; nếu các tấm
-                                            thu
-                                            nhiệt được đặt trong khoảng từ 60&deg; đến 90&deg; từ hướng tối ưu. Nói
-                                            chung,
-                                            hiệu suất mùa hè được cải thiện thu được từ góc nghiêng nhỏ hơn góc tối ưu
-                                            và hiệu suất mùa đông được cải thiện có được nhờ góc nghiêng lớn hơn góc tối
-                                            ưu. Nếu góc nghiêng thay đổi 20&deg; so với góc tối ưu, tấm thu nhiệt sẽ
-                                            nhận
-                                            được ít hơn khoảng 10% tổng lượng bức xạ mặt trời hàng năm.
-                                        </p>
-                                    </div>
-                                </div>
-                                <hr>
-                                <h3 class="operation-title">Bộ làm nóng nước bổ sung</h3>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <p>Một công tắc cách ly được lắp đặt bên trong hộp công tơ điện để cấp điện cho
-                                            bộ làm nóng nước bổ sung. Bật công tắc này để kích hoạt bộ làm nóng nước bổ
-                                            sung nếu cần thiết. Bộ làm nóng nước bổ sung dùng để làm nóng nước trong
-                                            trường hợp năng lượng bức xạ mặt trời thấp, chẳng hạn như trong điều kiện
-                                            thời tiết có nhiều mây hoặc mưa, hoặc trong những tháng mùa đông. Bộ làm
-                                            nóng nước bổ sung chỉ được kích hoạt trong trường hợp cần gia nhiệt thêm và
-                                            nguồn điện phải sẵn có ở bảng điều khiển. Khi nhiệt độ nước trong bình chứa
-                                            dưới mức cài đặt của bộ điều chỉnh nhiệt, thanh đốt điện trở sẽ được kích
-                                            hoạt và làm nóng nước. Bộ làm nóng nước bổ sung sẽ tự động ngắt khi nhiệt độ
-                                            nước trong bình chứa đạt đến mức cài đặt của bộ điều chỉnh nhiệt. Nếu nhiệt
-                                            độ nước giảm xuống dưới mức cài đặt một lần nữa, bộ làm nóng nước bổ sung sẽ
-                                            được kích hoạt lại.</p>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                         <div class="tab-panel" id="tab4">
-                            <div class="row justify-content-md-center">
-                                <div class="col-md-8">
-                                    <img src="assets/actualimg/150-1.JPG" alt="" class="img">
-                                </div>
-                            </div>
-                            <div class="row justify-content-md-center mt-4">
-                                <div class="col-md-8">
-                                    <img src="assets/actualimg/150-2.JPG" alt="" class="img">
-                                </div>
-                            </div>
-                            <div class="row justify-content-md-center mt-4">
-                                <div class="col-md-8">
-                                    <img src="assets/actualimg/150-4.JPG" alt="" class="img">
-                                </div>
-                            </div>
-                            <div class="row justify-content-md-center mt-4">
-                                <div class="col-md-8">
-                                    <img src="assets/actualimg/150-7.JPG" alt="" class="img">
-                                </div>
-                            </div>
-                            <div class="row justify-content-md-center mt-4">
-                                <div class="col-md-8">
-                                    <img src="assets/actualimg/150-3.JPG" alt="" class="img">
-                                </div>
-                            </div>
-                            <div class="row justify-content-md-center mt-4">
-                                <div class="col-md-8">
-                                    <img src="assets/actualimg/150-9.JPG" alt="" class="img">
-                                </div>
-                            </div>
-                            <div class="row justify-content-md-center mt-4">
-                                <div class="col-md-8">
-                                    <img src="assets/actualimg/150-10.JPG" alt="" class="img">
-                                </div>
-                            </div>
-                            <div class="row justify-content-md-center mt-4">
-                                <div class="col-md-8">
-                                    <img src="assets/actualimg/150-11.JPG" alt="" class="img">
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
+        </div> -->
+    </div>
+
+    <div class="features-wrapper">
+        <h2 class="feature-title">Tính năng</h2>
+        <ol>
+            <li>Máy Solahart đạt tiêu chuẩn chất lượng Châu Âu. </li>
+            <li>Máy chịu áp lực 8 bar, chịu được áp lực nước mạnh. </li>
+            <li>Sử dụng hệ thống tăng áp: bơm nước trực tiếp vào máy, có thể không nâng chân bồn hoặc không cần bồn chứa
+                nước. </li>
+            <li>Ruột bình được tráng men sứ bảo vệ chống ăn mòn, kéo dài tuổi thọ. </li>
+            <li>Thanh anode Magie dài 1.2m chống lại kim loại nặng trong nước ăn mòn ruột bình và làm sạch nước. </li>
+            <li>Bộ phận gia nhiệt: thanh đốt điện trở bằng đồng, tự động cúp điện khi nước đủ nhiệt độ. </li>
+            <li>Ống dẫn nước nóng bằng đồng. </li>
+            <li>Tấm phẳng thu nhiệt: kính cường lực 3.2mm. </li>
+            <li>Bình chứa nước nóng được tháo mở dễ dàng để vệ sinh bên trong. </li>
+            <li>Đội ngũ kỹ thuật khảo sát, tư vấn nhiệt huyết, chuyên nghiệp và cùng chủ nhà lựa chọn giải pháp thi công
+                hiệu quả tối ưu. </li>
+            <li>Bảo hành 5 năm. </li>
+            <li>Ngôi nhà đẳng cấp và khác biệt!</li>
+        </ol>
+    </div>
+    <div class="specifications-wrapper">
+        <h2 class="feature-title">Thông số kỹ thuật</h2>
+        <div class="row">
+            <div class="col-lg-12">
+                <table class="specifications">
+                    <tr>
+                        <th class="category">Kiểu máy</th>
+                        <th class="number">151PBT</th>
+                    </tr>
+                    <tr>
+                        <td class="category">Kiểu bình chứa</td>
+                        <td class="number">150RD18 & 150RD00</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Dung tích bình chứa</td>
+                        <td class="number">150 Lít</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Kích thước bình chứa</td>
+                        <td class="number">1620mm x 510mm x 510mm</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Kích thước toàn hệ thống</td>
+                        <td class="number">Mái bằng: 1670mm x 2490mm x 1120mm</td>
+                    </tr>
+                    <tr>
+                        <td class="category"></td>
+                        <td class="number">Mái nghiêng: 1670mm x 2490mm x 570mm</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Bộ phận gia nhiệt</td>
+                        <td class="number">Thanh đốt điện trở bằng đồng</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Nguồn cấp điện</td>
+                        <td class="number">220-240V 50-60Hz</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Kết nối ống nước</td>
+                        <td class="number">Ống lạnh: Rp 3/4", Ống nóng: Rp 3/4"</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Công suất thanh đốt điện trở</td>
+                        <td class="number">1.8kW</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Áp lực nước cấp tối đa</td>
+                        <td class="number">800 kPa</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Thiết lập van xả an toàn</td>
+                        <td class="number">1,000 kPa</td>
+                    </tr>
+
+
+                    <tr>
+                        <th class="" colspan="2" style="text-align: center;">Tấm thu nhiệt BPT20007
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="category">Diện tích thu nhiệt</td>
+                        <td class="number">1.87 m<sup>2</sup></td>
+                    </tr>
+                    <tr>
+                        <td class="category">Kích thước</td>
+                        <td class="number"></td>
+                    </tr>
+                    <tr>
+                        <td class="category">Dài</td>
+                        <td class="number">1943 mm</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Rộng</td>
+                        <td class="number">1027 mm</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Cao</td>
+                        <td class="number">83 mm</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Dung tích</td>
+                        <td class="number">1.2 Lít</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Trọng lượng*</td>
+                        <td class="number"></td>
+                    </tr>
+                    <tr>
+                        <td class="category">Rỗng</td>
+                        <td class="number">29 kg</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Đầy</td>
+                        <td class="number">32 kg</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Áp suất làm việc</td>
+                        <td class="number">1000 kPa</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Bề mặt hấp thụ</td>
+                        <td class="number">Lớp phủ bột Polyester màu đen</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Vật liệu hấp thụ</td>
+                        <td class="number">Nhôm</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Vật liệu ống dẫn</td>
+                        <td class="number">Ống đồng</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Vật liệu khay</td>
+                        <td class="number">Thép sơn tĩnh điện dày 0.45mm</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Lớp cách nhiệt</td>
+                        <td class="number">Lớp bảo ôn Polyester dày 38 mm</td>
+                    </tr>
+                    <tr>
+                        <td class="category">Kính</td>
+                        <td class="number">Cường lực low iron dày 3.2 mm</td>
+                    </tr>
+                </table>
+                <p>*Trọng lượng bao gồm phụ kiên lắp đặt</p>
+            </div>
         </div>
     </div>
+    <div class="operation-wrapper">
+        <h2 class="feature-title">Cách hoạt động</h2>
+        <div class="operation">
+            <h3 class="operation-title">Quy trình vận hành hệ thống năng lượng mặt trời</h3>
+            <div class="row">
+                <div class="col-md-7">
+                    <p>Hệ thống nước nóng năng lượng mặt trời Sunheat 151BPT (hình minh họa 302L) có
+                        bình chứa tráng men sứ được lắp đặt trực tiếp trên mái nhà kết hợp với tấm
+                        thu
+                        nhiệt. Nó hoạt động trên nguyên lý nước nóng được đưa lên trên. Khi mặt trời
+                        làm
+                        nóng nước trong các tấm thu nhiệt, nhiệt độ tăng làm cho nước nóng dâng lên
+                        qua
+                        một ống đồng cách nhiệt và được đưa vào bình chứa. Nước nóng vào bình chứa
+                        đẩy
+                        nước mát hơn xuống bên dưới và chảy vào bên dưới các tấm thu nhiệt, quy
+                        trình
+                        này cứ lặp lại nhờ năng lượng mặt trời.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/302l_operation.png" alt="" class="operation-img">
+                </div>
+            </div>
+            <hr>
+            <h3 class="operation-title">Hướng lắp đặt của các tấm thu nhiệt</h3>
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="assets/panelillustration.png" alt="" class="operation-img">
+                </div>
+                <div class="col-md-7">
+                    <p>
+                        Để giúp tối đa hóa hiệu suất hệ thống máy nước nóng, các tấm thu nhiệt nên
+                        được lắp đặt với hướng tối ưu, xoay về hướng chính bắc (ở bán cầu nam) hoặc
+                        hướng chính nam (ở bán cầu bắc). Luôn kiểm tra hướng chính bắc hoặc hướng
+                        chính nam bằng la bàn hoặc thiết bị phù hợp khác.
+                        <br><br>
+                        Để giúp tối đa hóa hiệu suất hệ thống, các tấm thu nhiệt nên được lắp đặt
+                        với độ nghiêng tối ưu. Giá trị này tương đương 90% đến 100% góc vĩ độ tại
+                        địa phương khi các tấm thu được đặt hướng trong phạm vi 60&deg; của hướng
+                        chính
+                        bắc hoặc hướng chính nam và trong khoảng từ 10&deg; đến 20&deg; nếu các tấm
+                        thu
+                        nhiệt được đặt trong khoảng từ 60&deg; đến 90&deg; từ hướng tối ưu. Nói
+                        chung,
+                        hiệu suất mùa hè được cải thiện thu được từ góc nghiêng nhỏ hơn góc tối ưu
+                        và hiệu suất mùa đông được cải thiện có được nhờ góc nghiêng lớn hơn góc tối
+                        ưu. Nếu góc nghiêng thay đổi 20&deg; so với góc tối ưu, tấm thu nhiệt sẽ
+                        nhận
+                        được ít hơn khoảng 10% tổng lượng bức xạ mặt trời hàng năm.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <h3 class="operation-title">Bộ làm nóng nước bổ sung</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Một công tắc cách ly được lắp đặt bên trong hộp công tơ điện để cấp điện cho
+                        bộ làm nóng nước bổ sung. Bật công tắc này để kích hoạt bộ làm nóng nước bổ
+                        sung nếu cần thiết. Bộ làm nóng nước bổ sung dùng để làm nóng nước trong
+                        trường hợp năng lượng bức xạ mặt trời thấp, chẳng hạn như trong điều kiện
+                        thời tiết có nhiều mây hoặc mưa, hoặc trong những tháng mùa đông. Bộ làm
+                        nóng nước bổ sung chỉ được kích hoạt trong trường hợp cần gia nhiệt thêm và
+                        nguồn điện phải sẵn có ở bảng điều khiển. Khi nhiệt độ nước trong bình chứa
+                        dưới mức cài đặt của bộ điều chỉnh nhiệt, thanh đốt điện trở sẽ được kích
+                        hoạt và làm nóng nước. Bộ làm nóng nước bổ sung sẽ tự động ngắt khi nhiệt độ
+                        nước trong bình chứa đạt đến mức cài đặt của bộ điều chỉnh nhiệt. Nếu nhiệt
+                        độ nước giảm xuống dưới mức cài đặt một lần nữa, bộ làm nóng nước bổ sung sẽ
+                        được kích hoạt lại.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery-wrapper">
+        <h2 class="feature-title">Hình ảnh thực tế</h2>
+        <div class="simple-gallery">
+
+            <img class="maxi" src="assets/actualimg/150-1.JPG">
+
+            <div class="mini">
+                <img src="assets/actualimg/150-1.JPG" alt="">
+                <img src="assets/actualimg/150-4.JPG" alt="">
+                <img src="assets/actualimg/150-3.JPG" alt="">
+                <img src="assets/actualimg/150-10.JPG" alt="">
+            </div>
+
+        </div>
+    </div>
+
 
     <div class="form-dangky">
         <h3 class="form-title">
@@ -478,6 +431,7 @@
         crossorigin="anonymous"></script>
     <script src="js/info-tabs.js"></script>
     <script src="js/zoom.js"></script>
+    <script src="js/actualimg.js"></script>
     <script async
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmHtU1TumOnlei0OJMqvVaTqxtvMF90Y8&callback=initMap">
         </script>

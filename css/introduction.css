@@ -41,3 +41,12 @@ hr {
 .strong {
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+    .introduction {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+}

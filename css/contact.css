@@ -1,0 +1,47 @@
+.toolbar {
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+.zalo-btn {
+    display: flex;
+    background-color: #08f;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.zalo-btn img {
+    max-width: 40px;
+}
+
+.fb-btn {
+    display: flex;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fb-btn img {
+    max-width: 55px;
+}
+
+.call-btn {
+    display: flex;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-btn img {
+    max-width: 55px;
+    border-radius: 50%;
+}
