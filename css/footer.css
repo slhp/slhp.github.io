@@ -1,9 +1,8 @@
 .footer {
-    color: white;
-    background-color: #0037ff;
+    color: #0a5bfc;
+    background-color: #a6e1ff;
     margin-top: 1em;
     padding-top: 1rem;
-    padding-bottom: 1rem;
 }
 
 .info {
@@ -17,6 +16,7 @@
     color: black;
     font-weight: bold;
     font-size: 25px;
+    text-decoration: none;
 }
 
 .copyright {
